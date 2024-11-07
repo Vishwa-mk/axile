@@ -1,0 +1,171 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+img {
+    width : 100px;
+    height: 60px;
+}
+.aside {
+    width : 250px;
+    height: 200px;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #0a0044; /* TCS-inspired dark blue */
+    color: #fff;
+}
+
+.navbar .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar nav ul li {
+    margin: 0 20px;
+}
+
+.navbar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.navbar nav ul li a:hover {
+    color: #00b5e2; /* TCS-inspired accent color */
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #003366, #0073e6); /* Gradient inspired by TCS theme */
+    color: #fff;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero-section h1 {
+    font-size: 2.8em;
+    margin-bottom: 15px;
+}
+.hero-description h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.hero-section p {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+.hero-section .cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #e20000;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+
+.hero-section .cta-button:hover {
+    background-color: #009bbd;
+}
+
+/* About Section */
+.about-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #ffffff52;
+}
+
+.about-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #2c6600;
+}
+
+/* Services Section */
+.services-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f6fff1;
+}
+
+.services-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #003366;
+}
+
+.services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-box {
+    background-color: #fff;
+    width: 250px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-box h3 {
+    color: #0056b3;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    color: #666;
+    font-size: 1em;
+}
+
+/* Solutions Section */
+.solutions-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.solutions-section h2 {
+    font-size: 2.5em;
+    color: #666600;
+}
+
+.solutions-section p {
+    color: #666;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #002244;
+    color: #ffffff;
+}
